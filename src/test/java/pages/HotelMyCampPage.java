@@ -26,4 +26,7 @@ public class HotelMyCampPage {
 
     @FindBy(xpath = "(//a[@class=\"dropdown-toggle\"])[1]")
     public WebElement basariliGiris;
+
+    @FindBy(xpath = "//span[text()='Try again please']")
+    public WebElement basarisizGiris;
 }
